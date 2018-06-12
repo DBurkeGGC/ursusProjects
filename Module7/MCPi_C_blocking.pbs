@@ -1,0 +1,30 @@
+#PBS -l nodes=1:ppn=8
+#PBS -l walltime=1:00:00
+### Merge stderr with stdout
+#PBS -j oe
+### Queue names (low, medium, default, and high)
+#PBS -q batch
+### Job name
+#PBS -N MCPi_C_blocking
+### Declare job-non-rerunable
+#PBS -r n
+#PBS -M dburke2@ggc.edu
+
+# This job's working directory
+echo Job ID: $PBS_JOBID
+echo Working directory is $PBS_O_WORKDIR
+cd $PBS_O_WORKDIR
+echo Running on host `hostname`
+echo Time is `date`
+echo Current Directory is `pwd`
+echo This job runs on the following processors:
+echo `cat $PBS_NODEFILE`
+
+#Define number of processors
+NPROCS=`wc -l < $PBS_NODEFILE`
+echo This job has allocated $NPROCS nodes/processors.
+
+module load gcc_openmpi
+
+# Command line:
+mpirun --mca btl ^openib -np $NPROCS -machinefile $PBS_NODEFILE ./MCPi_C_blocking > MCPi_C_blocking.txt 2>&1

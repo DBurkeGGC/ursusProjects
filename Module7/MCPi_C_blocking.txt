@@ -1,0 +1,8 @@
+Rank: 1	 Pi: 3.140895	 Time: 0.770000
+Rank: 2	 Pi: 3.140560	 Time: 1.510000
+Rank: 3	 Pi: 3.142407	 Time: 2.260000
+Rank: 4	 Pi: 3.141371	 Time: 2.990000
+Rank: 5	 Pi: 3.141680	 Time: 3.910000
+Rank: 6	 Pi: 3.141654	 Time: 4.480000
+Rank: 7	 Pi: 3.141558	 Time: 5.390000
+Total Execution Time: 5.210000 SEC

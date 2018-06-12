@@ -1,0 +1,15 @@
+Module 6 (Non-blocking)
+
+RAW ARRAY:	 [{'pi': 3.1425244000000001, 'time': 0.8447208404541016}, {'pi': 3.1409227999999998, 'time': 0.8401391506195068}, {'pi': 3.1416488, 'time': 0.8829829692840576}, {'pi': 3.1416976000000001, 'time': 0.9353218078613281}, {'pi': 3.1416308000000002, 'time': 0.9376559257507324}, {'pi': 3.1425556000000001, 'time': 1.0420610904693604}, {'pi': 3.1412119999999999, 'time': 1.0615708827972412}] 
+
+Average Pi Estimation:	 3.14174171429
+Average Execution Time:	 0.9349218096051898
+Total Execution Time:	 1.0680339336395264 
+
+Pi Estimation:	 3.1425244 	Execution Time:	 0.8447208404541016
+Pi Estimation:	 3.1409228 	Execution Time:	 0.8401391506195068
+Pi Estimation:	 3.1416488 	Execution Time:	 0.8829829692840576
+Pi Estimation:	 3.1416976 	Execution Time:	 0.9353218078613281
+Pi Estimation:	 3.1416308 	Execution Time:	 0.9376559257507324
+Pi Estimation:	 3.1425556 	Execution Time:	 1.0420610904693604
+Pi Estimation:	 3.141212 	Execution Time:	 1.0615708827972412

@@ -1,0 +1,21 @@
+Doneit
+Doneit
+Doneit
+Module 6 (Non-blocking)
+
+RAW ARRAY:	 [{'pi': 3.1414884000000001, 'time': 2.42536997795105, 'rank': 0}, {'pi': 3.1418596000000001, 'time': 2.3239588737487793, 'rank': 2}, {'pi': 3.1422560000000002, 'time': 2.3604629039764404, 'rank': 1}, {'pi': 3.1415476, 'time': 2.5159080028533936, 'rank': 3}, {'pi': 3.1424484000000001, 'time': 2.5921380519866943, 'rank': 5}, {'pi': 3.1412407999999998, 'time': 2.5903851985931396, 'rank': 4}, {'pi': 3.1419912000000001, 'time': 2.7518279552459717, 'rank': 7}, {'pi': 3.1414819999999999, 'time': 2.7728421688079834, 'rank': 6}] 
+
+Average Pi Estimation:	 3.14178925
+Average Execution Time:	 2.5416116416454315
+Total Execution Time:	 2.7776448726654053 
+
+Rank:	 0 	Pi Estimation:	 3.1414884 	Execution Time:	 2.42536997795105
+Rank:	 2 	Pi Estimation:	 3.1418596 	Execution Time:	 2.3239588737487793
+Rank:	 1 	Pi Estimation:	 3.142256 	Execution Time:	 2.3604629039764404
+Rank:	 3 	Pi Estimation:	 3.1415476 	Execution Time:	 2.5159080028533936
+Rank:	 5 	Pi Estimation:	 3.1424484 	Execution Time:	 2.5921380519866943
+Rank:	 4 	Pi Estimation:	 3.1412408 	Execution Time:	 2.5903851985931396
+Rank:	 7 	Pi Estimation:	 3.1419912 	Execution Time:	 2.7518279552459717
+Rank:	 6 	Pi Estimation:	 3.141482 	Execution Time:	 2.7728421688079834
+Doneit
+Doneit
