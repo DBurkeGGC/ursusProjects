@@ -1,0 +1,12 @@
+Monte Carlo Calculation of Pi
+Python, Vectorized
+Trials: 10 ^ 1 	Pi Estimation:  3.6
+Trials: 10 ^ 2 	Pi Estimation:  2.96
+Trials: 10 ^ 3 	Pi Estimation:  3.156
+Trials: 10 ^ 4 	Pi Estimation:  3.1344
+Trials: 10 ^ 5 	Pi Estimation:  3.14096
+Trials: 10 ^ 6 	Pi Estimation:  3.141292
+Trials: 10 ^ 7 	Pi Estimation:  3.14135
+Execution Time:  0.8217320442199707
+1.19user 0.11system 0:01.44elapsed 90%CPU (0avgtext+0avgdata 708912maxresident)k
+8inputs+8outputs (0major+7568minor)pagefaults 0swaps

@@ -1,0 +1,7 @@
+
+gnuplot> nset obj 1;
+         ^
+         line 0: invalid command
+
+1.05user 0.21system 0:04.68elapsed 27%CPU (0avgtext+0avgdata 253056maxresident)k
+0inputs+136outputs (0major+32450minor)pagefaults 0swaps

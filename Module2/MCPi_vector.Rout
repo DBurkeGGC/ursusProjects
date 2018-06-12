@@ -1,0 +1,54 @@
+
+R version 2.15.0 (2012-03-30)
+Copyright (C) 2012 The R Foundation for Statistical Computing
+ISBN 3-900051-07-0
+Platform: x86_64-redhat-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+[Previously saved workspace restored]
+
+> # MonteCarlo Pi 
+> rm(list=ls())
+> 
+> set.seed(5757)
+> 
+> NTrials <- c(10,10^2,10^3,10^4,10^5,10^6)
+> Ncases <- length(NTrials)
+> PiEst <- numeric(Ncases)
+> 
+> for( i in 1:Ncases) {
++     x <- runif(NTrials[i])
++     y <- runif(NTrials[i])
++     Rcount <- sum( x^2 + y^2 <= 1)
++     PiEst[i] <- 4*Rcount/NTrials[i]
++ }
+> 
+> sink("MCPi_R_vector.txt")
+> print(cbind(NTrials,PiEst))
+> sink()
+> 
+> pdf("MCPi_R_vector.pdf")
+> plot(NTrials,PiEst, 
++ 	main="Monte Carlo Estimation of Pi (R, Vectorized)",
++ 	xlab="Number of Trials",
++ 	ylab="Estimation of Pi")
+> dev.off()
+null device 
+          1 
+> 
+> proc.time()
+   user  system elapsed 
+  1.006   0.067   1.047 
